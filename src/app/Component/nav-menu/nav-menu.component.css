@@ -1,0 +1,174 @@
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: -58px;
+    align-items: center;
+}
+
+.logo-container img{
+    width: 56px;
+    height: 56px;
+}
+
+.logo-container h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 24px;
+    color: #151D48;
+}
+
+.menu-container{
+    margin-left: 45px;
+    margin-top: 49px;
+    margin-right: 47px;
+}
+
+.menu-container img{
+    width: 32;
+    height: 32;
+}
+
+.menu-container li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 23px;
+    margin-bottom: 48px;
+}
+
+.menu-container li:first-child{
+ background-color: #5D5FEF;
+ padding-left: 23px;
+ padding-right: 72px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ border-radius: 15px;
+ margin-bottom: 48px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #737791;
+    margin-left: 24px;
+}
+
+.menu-container .firsttext{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffff;
+    margin-left: 24px;
+}
+
+.dabang-pro{
+    transform: translateY(92px);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.background-dabang{
+    background-color: #5D5FEF;
+    width: 238px;
+    height: 259px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.container-dabang{
+    z-index: 2;
+}
+
+.circle1{
+    background-color: #fff;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255,0) 70%);
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    transform: translate(70px,-140px);
+    z-index: 1;
+}
+.circle2{
+    background-color: #fff;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255,0) 70%);
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    transform: translate(-140px,-85px);
+    z-index: 1;
+}
+
+.logo-dabang{
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    transform: translate(95px,-452px);
+    z-index: 2;
+}
+
+.logo-dabang img{
+    transform: translate(11.5px,11.5px)
+}
+
+.container-dabang h1{
+    transform: translate(59.5px,-442px);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.container-dabang p{
+    transform: translate(0px,-432px);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    color: #ffff;
+    text-align: center;
+}
+
+.container-dabang button{
+    transform: translate(51px,-407px);
+    background-color: #fff;
+    width: 136px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #5D5FEF;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.footer-menu{
+    transform: translateY(92px);
+    background-color: #fff;
+    width: 345px;
+    height: 136px;
+}

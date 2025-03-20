@@ -1,0 +1,145 @@
+.container{
+    width: 645px;
+    height: 351px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #05004E;
+    padding-left: 32px;
+    padding-top: 27px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+td {
+    padding: 17px 25px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #444A6D;
+}
+
+th {
+    border-bottom: 1px solid #EDF2F6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #96A5B8;
+    padding: 10px 25px;
+    text-align: left;
+}
+
+tr:not(:first-child) {
+    border-top: 1px solid #EDF2F6;
+}
+
+.progress {
+    width: 180px;
+    height: 4px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.progress-blue{
+    background: #CDE7FF;
+}
+
+.progress-green{
+    background: #8CFAC7;
+}
+
+.progress-purple{
+    background: #C5A8FF;
+}
+
+.progress-orange{
+    background: #FFD5A4;
+}
+
+.blue { 
+    background: #0095FF; 
+    width: 140px; 
+}
+
+.green { 
+    background: #00E096;
+     width: 110px; 
+}
+
+.purple { 
+    background: #884DFF; 
+    width: 100px; 
+}
+
+.orange { 
+    background: #FF8F0D; 
+    width: 60px; 
+}
+
+.btn {
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    padding: 2px 10px;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+}
+
+.fill-blue{
+    background: #F0F9FF;
+}
+.fill-green{
+    background: #F0FDF4;
+}
+
+.fill-purple{
+    background: #FBF1FF;
+}
+
+.fill-orange{
+    background: #FEF6E6;
+}
+
+.btn-blue { 
+    color: #0095FF; 
+    border: 1px solid #0095FF; 
+}
+
+.btn-green { 
+    color: #00E58F; 
+    border: 1px solid #00E58F; 
+}
+
+.btn-purple { 
+    color: #884DFF; 
+    border: 1px solid #884DFF; 
+}
+
+.btn-orange { 
+    color: #FF8900; 
+    border: 1px solid #FF8900; 
+}

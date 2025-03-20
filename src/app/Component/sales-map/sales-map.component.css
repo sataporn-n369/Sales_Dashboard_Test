@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 421px;
+    height: 351px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #05004E;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+.map{
+    width: 380px;
+    height: 229px;
+    z-index: 1;
+}
+#chartdiv{
+    width: 400px;
+    height: 250px;
+}
+
+.hide-color{
+    background-color: #fff;
+    width: 200px;
+    height: 50px;
+    transform: translateY(-10px);
+    z-index: 2;
+}

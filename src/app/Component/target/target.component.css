@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 371px;
+    height: 351px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container-chart{
+    height: 100%;
+    max-width: 371px;
+    display: flex;
+    overflow: hidden;
+}
+
+.container h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #05004E;
+    padding-left: 20px;
+    padding-top: 27px;
+}
+
+.container-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.reality{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.reality .logo{
+    background-color: #E2FFF3;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reality .logo img{
+    width: 18px;
+    height: 18px;
+}
+
+.reality .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-10px,-15px);
+}
+
+.reality .detail h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: #151D48;
+}
+
+.reality .detail p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: #737791;
+    transform: translateX(-12px);
+}
+
+.reality h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #27AE60;
+    padding-left: 57px;
+}
+
+.target{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    transform: translateY(-10px);
+}
+
+.target .logo{
+    background-color: #FFF4DE;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.target .logo img{
+    width: 18px;
+    height: 18px;
+}
+
+.target .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-10px,-15px);
+}
+
+.target .detail h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: #151D48;
+}
+
+.target .detail p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: #737791;
+    transform: translateX(3px);
+}
+
+.target h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFA412;
+    padding-left: 59px;
+}
+

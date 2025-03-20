@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 645px;
+    height: 351px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container-chart{
+    height: 85%;
+    display: flex;
+}
+
+.container h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #05004E;
+    padding-left: 32px;
+    padding-top: 27px;
+}

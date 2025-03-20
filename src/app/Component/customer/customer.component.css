@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 420px;
+    height: 351px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container-chart{
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.hr{
+    border-top: 1px solid #EDF2F6;
+    transform: translate(0px, 10px);
+}
+.container h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #05004E;
+    padding-left: 20px;
+    padding-top: 27px;
+}
+
+.container-detail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.volume{
+    display: flex;
+    align-items: center;
+    transform: translate(-15px,0px);
+}
+
+.volume .circle{
+    background-color: #0095FF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translate(20px, 3px);
+    z-index: 1;
+}
+
+.volume .line-circle{
+    border-top: 2px solid #0095FF;
+    width: 19px;
+    transform: translate(5px,3px);
+    z-index: 2;
+}
+
+.volume .text{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-10px, 0px);
+}
+
+.volume .text h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #96A5B8;
+}
+
+.volume .text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #222B45;
+    transform: translate(20px,0px);
+}
+
+.container-detail .line{
+    border-left: 1px solid #EDF2F6;
+    height: 25px;
+    transform: translate(-5px, 30px);
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    transform: translate(20px, 0px);
+}
+
+.service .circle{
+    background-color: #00E096;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translate(0px, 3px);
+    z-index: 1;
+}
+
+.service .line-circle{
+    border-top: 2px solid #00E096;
+    width: 19px;
+    transform: translate(-14px,3px);
+    z-index: 2;
+}
+
+.service .text{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-27px, 0px);
+}
+
+.service .text h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #96A5B8;
+}
+
+.service .text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #222B45;
+    transform: translate(20px,0px);
+}
